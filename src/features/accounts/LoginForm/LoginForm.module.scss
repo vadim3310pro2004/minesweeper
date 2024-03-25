@@ -1,0 +1,22 @@
+
+
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+
+    >div {
+        width: 100%;
+    }
+    
+    >button {
+        width: fit-content;
+    }
+}
+
+:root[theme='light'] {
+    .root>button {
+        color: #bbb
+    }
+}

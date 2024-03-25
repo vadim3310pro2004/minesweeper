@@ -1,0 +1,53 @@
+
+
+.root {
+    // position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.canvas {
+    width: 100vmax;
+    height: 100vmax;
+    border-radius: 50%;
+}
+
+.image {
+    position: absolute;
+    max-width: 300px;
+    max-height: 300px;
+    width: 90vmin;
+    height: 90vmin;
+}
+
+
+
+
+
+
+
+
+// .root {
+//     display: grid;
+//     place-items: center;
+    
+//     .vawe:nth-child( 1 ) {
+//         animation-delay: -0s;
+//     }
+//     .vawe:nth-child( 2 ) {
+//         animation-delay: -2s;
+//     }
+//     .vawe:nth-child( 3 ) {
+//         animation-delay: -4s;
+//     }
+//     .vawe:nth-child( 4 ) {
+//         animation-delay: -6s;
+//     }
+// }
+
+// .vawe, .image {
+//     max-width: 300px;
+//     max-height: 300px;
+//     width: 90vmin;
+//     height: 90vmin;
+// }
